@@ -7,7 +7,7 @@ from telethon.tl import functions
 from datetime import datetime
 TIMEOUT = 10  
 counter = 0
-semaphore = asyncio.Semaphore(6)  
+semaphore = asyncio.Semaphore(3)  
 
 api_id = 27603298
 api_hash = '997ab65d68c567f8c6a3f76a5106bca8'
